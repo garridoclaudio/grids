@@ -211,10 +211,9 @@ h1 {
 	grid-template-rows: repeat(3, 80px);
 	grid-column-gap: 10px;
   	grid-row-gap: 10px;
-	grid-template-areas: "cuad_a cuad_d aruno aruno aruno"
-						 "cuad_b aruno aruno aruno aruno"
-						 "cuad_c aruno aruno aruno aruno"
-}
+	grid-template-areas: "cuad_a cuad_d cuad_d cuad_g cuad_g"
+						 "cuad_b cuad_d cuad_d cuad_h cuad_h"
+						 "cuad_c cuad_e cuad_f cuad_i cuad_j"
 .cuad_a {
 	background-color: purple;
 	grid-area: cuad_a;
